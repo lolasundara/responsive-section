@@ -21,3 +21,33 @@ html {
 body {
   margin: 0;
 }
+
+img {
+  width: 150px;
+  margin-top: 1em;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: #e5c30a;
+  padding: .25em;
+}
+
+.section-body {
+  margin-left: 1em;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-right: 1em;
+}
