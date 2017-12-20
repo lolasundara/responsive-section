@@ -26,18 +26,20 @@ section {
   background-color: #e5c30a;
 }
 
-img {
+.img-flex {
+  display: block;
   width: 130px;
   margin-top: 1em;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
-}
-
 .section-letter {
   margin-left: 1em;
+  float: left;
+}
+
+.section-icon {
+  float: right;
+  margin-right: 1em;
 }
 
 .wrapper {
@@ -70,5 +72,25 @@ section p {
   .section-letter {
     margin-left: 2em;
     margin-right: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .img-flex {
+    width: 75px;
+  }
+
+  .section-letter {
+    float: left;
+  }
+
+  .section-icon {
+    float: right;
+  }
+
+  .wrapper {
+    padding: 1.5em;
+    overflow: hidden;
   }
 }
