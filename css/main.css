@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -28,7 +28,8 @@ section {
 
 .img-flex {
   display: block;
-  width: 130px;
+  width: 100%;
+  max-width: 130px;
   margin-top: 1em;
 }
 
@@ -77,6 +78,11 @@ section p {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
   .img-flex {
     width: 75px;
   }
@@ -93,4 +99,25 @@ section p {
     padding: 1.5em;
     overflow: hidden;
   }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .wrapper {
+    padding: 2em;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+
 }
