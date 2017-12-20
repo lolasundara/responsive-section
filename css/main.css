@@ -60,3 +60,15 @@ section p {
   margin-top: 0;
   margin-right: 1em;
 }
+
+@media only screen and (min-width: 25em) {
+
+  img {
+    width: 140px;
+  }
+
+  .section-letter {
+    margin-left: 2em;
+    margin-right: 1.5em;
+  }
+}
